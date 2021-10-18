@@ -1,6 +1,3 @@
-// Import stylesheets
-import './style.css';
+import { Animal } from "./classes/Animal";
 
-// Write TypeScript code!
-const appDiv: HTMLElement = document.getElementById('app');
-appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
+const dog = new Animal('Krypto', 'white');
