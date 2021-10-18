@@ -1,3 +1,6 @@
+import { MyDecorator } from "../Decorators/MyDecorator";
+
+@MyDecorator
 export class Animal {
   private _name: string;
   private _color: string;
